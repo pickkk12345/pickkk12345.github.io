@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bukti Pemesanan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <img src="logo-resto.jpeg" alt="Restaurant Logo">
+            <h2><strong>BUKTI PEMESANAN</strong></h2>
+        </div>
+
+        <table>
+            <tr>
+                <td><strong>Nama Pelayan:</strong> Ahmad Nur Fauzan</td>
+                <td><strong>Tanggal Pemesanan:</strong> <input type="text" placeholder="mm/dd/yyyy"></td>
+            </tr>
+            <tr>
+                <td><strong>Nama Pemesan:</strong> Abdullah Azam</td>
+                <td><strong>Alamat Pemesan:</strong> Jl. Merdeka No. 15, Kota Balikpapan</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <th>Nama Menu</th>
+                <th>Jumlah</th>
+                <th>Harga Satuan</th>
+                <th>Total Harga</th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="nasi-goreng.jpeg" alt="Nasi Goreng Spesial"><br>
+                    Nasi Goreng Spesial
+                </td>
+                <td><input type="text" value="1"> Porsi</td>
+                <td>Rp 25.000</td>
+                <td>Rp 25.000</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="es-teh-manis.jpeg" alt="Es Teh Manis"><br>
+                    Es Teh Manis
+                </td>
+                <td><input type="text" value="1"> Gelas</td>
+                <td>Rp 5.000</td>
+                <td>Rp 5.000</td>
+            </tr>
+        </table>
+
+        <div class="summary">
+            <table>
+                <tr>
+                    <td><strong>Total Pesanan:</strong></td>
+                    <td>Rp 30.000</td>
+                </tr>
+                <tr>
+                    <td><strong>Pajak:</strong></td>
+                    <td>Rp 2.000</td>
+                </tr>
+                <tr>
+                    <td><strong>Total Tagihan:</strong></td>
+                    <td>Rp 32.000</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="payment-method">
+            <strong>Metode Pembayaran:</strong><br>
+            <input type="radio" name="pembayaran" value="bca"> Bank BCA
+            <input type="radio" name="pembayaran" value="bri"> Bank BRI
+            <input type="radio" name="pembayaran" value="ovo"> OVO
+            <input type="radio" name="pembayaran" value="gopay"> GoPay
+        </div>
+
+        <div class="footer">
+            <p><strong>Nama:</strong> Taufiqurrahman Al Baihaqi</p>
+            <p><strong>NIM:</strong> 2309106114</p>
+            <p><strong>Praktikum Web:</strong> <a href="https://classroom.google.com/c/NzEwMjM1NDMwMjIz/a/NzA2MTMwMDQ4OTg3/details">Posttest 2</a></p>
+        </div>
+    </div>
+
+</body>
+
+</html>
