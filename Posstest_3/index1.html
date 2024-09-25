@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DONASI PALESTINA</title>
+    <link rel="stylesheet" href="formulir.css">
+</head>
+<body>
+    <div class="form-container">
+        <center><img src="logopales.png" alt=""></center>
+        <h1>Formulir Sumbangan Untuk Palestina</h1>
+        
+        <p><strong><i>Harap lengkapi formulir di bawah ini untuk Mendonasi.</i></strong></p>
+        <form id="lamaranForm" action="#" method="post">
+            <div class="section-divider"><span>1. Data Pribadi</span></div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="nama_depan">Nama Depan</label>
+                    <input type="text" name="nama_depan" id="nama_depan" required>
+                </div>
+                <div class="form-group">
+                    <label for="nama_belakang">Nama Belakang</label>
+                    <input type="text" name="nama_belakang" id="nama_belakang">
+                </div>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="jenis_kelamin">Jenis Kelamin</label>
+                <input type="radio" id="pria" name="jenis_kelamin" value="Pria">
+                <label for="pria">Pria</label>
+                <input type="radio" id="wanita" name="jenis_kelamin" value="Wanita">
+                <label for="wanita">Wanita</label>
+            </div>
+            <br>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="tempat_lahir">Tempat Lahir</label>
+                    <input type="text" name="tempat_lahir" id="tempat_lahir" required>
+                </div>
+                <div class="form-group">
+                    <label for="tanggal_lahir">Tanggal Lahir</label>
+                    <input type="date" name="tanggal_lahir" id="tanggal_lahir">
+                </div>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="alamat">Alamat Lengkap</label>
+                <textarea name="alamat" id="alamat" required></textarea>
+                <small>*sesuai KTP</small>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="no_hp">Nomor Telpon</label>
+                <input type="number" id="no_hp" name="no_hp" min="0" max="999999999999" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="usia">Usia</label>
+                <input type="number" id="usia" name="usia" min="18" max="30" required>
+                <small>*sesuai KTP</small>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="gambar">Unggah Fotokopi KTP</label>
+                <input type="file" id="gambar" name="gambar" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="gambar">Unggah Fotokopi Ijazah SMA</label>
+                <input type="file" id="gambar" name="gambar" required>
+            </div>
+
+            <div class="section-divider"><span>2. Data Pengiriman dana</span></div>
+            <div class="form-group">
+                <label for="data_keluarga">Data pembayaran</label><br><br>
+                <label for="nama_bank">masukan nama Bank</label>
+                <input type="text" id="nama_bank" name="nama_bank" placeholder="Masukkan Nama bank/Istri"><small>*wajib di isi</small><br>
+                <label for="no_bank">masukan no bank</label>
+                <input type="number" id="no_bank" name="no_bank" min="0" max="5" placeholder="Masukkan no bank"><small>*wajib di isi</small>
+            </div>
+
+            <div class="form-group">
+                <label for="pesan">Pesan atau doa untuk sumbangan</label>
+                <textarea id="pesan" name="pesan"></textarea>
+            </div><br>
+
+            <div class="form-group">
+                <label for="job-select">Pilihlah jumlah donasi</label>
+                <br>
+                <select id="job-select" required>
+                    <option value="" disabled selected>Pilih Jumlah donasi</option>
+                    <option value="1000000">1.000.000 Rp</option>
+                    <option value="2000000">2.000.000 Rp</option>
+                    <option value="3000000">3.000.000 Rp</option>
+                    <option value="4000000">4.000.000 Rp</option>
+                    <option value="5000000">5.000.000 Rp</option>
+                </select>
+            </div>
+            
+            <p><strong><i>Pastikan Data Pribadi Anda dan Data Pembayaran Sudah Sesuai Sebelum Mengirim</i></strong></p>
+
+            <center><a href="index.html" id="btn-submit" class="btn-submit">Kirim</a></center>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+<footer>
+    <hr>
+    <p>
+        Taufiqurrahman Al Baihaqi (2309106114)
+    </p>
+</footer>
+</html>
