@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('bendera.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #ffffff;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0); 
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px 0; 
+    position: relative; 
+    z-index: 1; 
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li a, .navbar ul li button {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.header-container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-start {
+    padding: 15px 30px;
+    background-color: #5c3d17;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-start:hover {
+    background-color: #e6ff05;
+    color: white;
+}
+
+
+.about {
+    background-color: #149740; 
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    font-family: 'Arial', sans-serif;
+}
+
+.about h2 {
+    color: #333; 
+    font-size: 24px; 
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px; 
+}
+
+.about p {
+    color: #000000;
+    line-height: 1.6; 
+    margin-bottom: 15px; 
+}
+
+.btn-list {
+    padding: 12px 25px;
+    background-color: #149740; /* Warna hijau yang sesuai dengan kelas .about */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin-top: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-list:hover {
+    background-color: #0f7a33; /* Warna hijau yang sedikit lebih gelap saat hover */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Jika Anda ingin menambahkan efek ketika tombol ditekan */
+.btn-list:active {
+    transform: translateY(1px);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Pastikan tombol terlihat baik di perangkat mobile */
+@media (max-width: 768px) {
+    .btn-list {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+
